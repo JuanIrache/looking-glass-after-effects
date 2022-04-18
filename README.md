@@ -20,7 +20,7 @@ Shoot video while constantly moving the camera along its transversal axis (i.e. 
 - Set the amount of **Depth**. This will require some trial and error. As a rule of thumb, the faster your movement the less depth you should apply. Depth actually means seconds between your first and last camera angles
 - Set the **Focus** value. This determines the sharpest region of your shot. Find a moment where the most relevant element is on screen and adjust the slider until it is aligned vertically in all the cells. If you re-adjust the depth value, you will need to readjust focus as well
 - Adjust the work area of your composition to remove the last seconds of the footage, where cells start to disappear. The depth value will determine the number of seconds you need to trim
-- Export to one of the [compatible formats](https://docs.lookingglassfactory.com/keyconcepts/quilts#format)
+- Export your composition to one of the [compatible formats](https://docs.lookingglassfactory.com/keyconcepts/quilts#format)
 - Plug your Looking Glass device and load your work with HoloPlay Studio
 
 ## Notes
