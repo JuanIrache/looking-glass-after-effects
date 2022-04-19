@@ -18,14 +18,15 @@ Shoot video while constantly moving the camera along its transversal axis (i.e. 
 - Open the **QUILT** composition, select the **SETTINGS** layer and go to the Effects Controls tab
 - Set the right **Movement** direction of your shot
 - Set the amount of **Depth**. This will require some trial and error. As a rule of thumb, the faster your movement the less depth you should apply. Depth actually means seconds between your first and last camera angles
-- Set the **Focus** value. This determines the sharpest region of your shot. Find a moment where the most relevant element is on screen and adjust the slider until it is aligned vertically in all the cells. If you re-adjust the depth value, you will need to readjust focus as well
+- Set the **Focus** value. This determines the sharpest region of your shot. 0 will set the closest elements in focus and 100 will do so with the background. Find a moment where the most relevant element is on screen and adjust the slider until it is aligned vertically in all the cells. If you re-adjust the depth value, you will need to readjust focus as well. The higher the depth, the further the minimum focus point is, so if you cannot focus close enough, use a smaller depth
 - Adjust the work area of your composition to remove the last seconds of the footage, where cells start to disappear. The depth value will determine the number of seconds you need to trim
 - Export your composition to one of the [compatible formats](https://docs.lookingglassfactory.com/keyconcepts/quilts#format)
 - Plug your Looking Glass device and load your work with HoloPlay Studio
 
 ## Notes
 
-- Orbiting shots may also work, but they can suffer from ["toe-in"](https://docs.lookingglassfactory.com/keyconcepts/camera#view-cone). When orbiting, low Focus values are probably better, in some cases even negative ones, which you can set manually
+- Orbiting shots may also work, but they can suffer from ["toe-in"](https://docs.lookingglassfactory.com/keyconcepts/camera#view-cone). When orbiting, high Focus values are probably better, in some cases even beyond 100, which you can set manually
 - You can extend the duration of the FOOTAGE and QUILT compositions if necessary. Make sure to also extend the duration of hidden layers
 - Currently this is designed to work witt the Looking Glass Portrait only
+- Do not place layers above the **SETTINGS** one. That would break some important calculations
 - You can use this to export still frames too, of course
