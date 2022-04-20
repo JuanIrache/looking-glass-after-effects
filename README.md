@@ -1,6 +1,10 @@
 # looking-glass-after-effects
 
-Create Looking Glass quilts from side tracking shots in Adobe After Effects. See [sample footage here](https://youtu.be/hQa8DnxfTOY).
+Create Looking Glass quilts from side tracking shots in Adobe After Effects.
+
+See [sample footage here](https://youtu.be/hQa8DnxfTOY).
+
+And some still exports in the **stills** folder.
 
 ## Prerequisites
 
