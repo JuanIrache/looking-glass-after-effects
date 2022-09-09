@@ -18,7 +18,7 @@ And some still exports in the **stills** folder.
 Shoot video while constantly moving the camera along its transversal axis (i.e. left to right or right to left) in the most stable way possible: with a slider, drone, vehicle... Make sure the scene does not have many moving elements. The fewer the better. Then:
 
 - Load your footage into the After Effects template
-- Select a section of your footage that moves at a constant speed and drop it inside the **FOOTAGE** composition. If the resolution does not fill the entire comp, either rescale the footage or the composition. Either should work well as long as the result has a wider aspect ratio than the cells in the Quilt
+- Select a section of your footage that moves at a constant speed and drop it inside the **FOOTAGE** composition. If the resolution does not fill the entire comp, either rescale the footage or the composition. Either should work well as long as the result has a wider aspect ratio than the cells in the Quilt. For the sharpest result, set the Frame Blending of your footage layer to Pixel Motion (be aware that this will make your rendering very slow)
 - Open the **QUILT** composition, select the **SETTINGS** layer and go to the Effects Controls tab
 - Set the right **Movement** direction of your shot
 - Set the amount of **Depth**. This will require some trial and error. As a rule of thumb, the faster your movement the less depth you should apply. Depth actually means seconds between your first and last camera angles
