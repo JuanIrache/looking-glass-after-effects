@@ -9,8 +9,8 @@ And some still exports in the **stills** folder.
 ## Prerequisites
 
 - A [Looking Glass](https://lookingglassfactory.com/) holographic display
-- Install [HoloPlay Service](https://lookingglassfactory.com/software#holoplay-service) to communicate with the device
-- Install [HoloPlay Studio](https://lookingglassfactory.com/software) to load your work into the device
+- Install [Looking Glass Bridge](https://lookingglassfactory.com/software/looking-glass-bridge) to communicate with the device
+- Install [Looking Glass Studio](https://lookingglassfactory.com/software/looking-glass-studio) to load your work into the device
 - Install [Adobe After Effects](https://www.adobe.com/products/aftereffects.html). Basic AE knowledge is required
 
 ## Instructions
@@ -25,7 +25,7 @@ Shoot video while constantly moving the camera along its transversal axis (i.e. 
 - Set the **Focus** value. This determines the sharpest region of your shot. 0 will set the closest elements in focus and 100 will do so with the background. Find a moment where the most relevant element is on screen and adjust the slider until it is aligned vertically in all the cells. If you re-adjust the depth value, you will need to readjust focus as well. The higher the depth, the further the minimum focus point is, so if you cannot focus close enough, use a smaller depth. Potentially, you can set key frames and adjust the focus distance for different moments
 - Adjust the work area of your composition to remove the last seconds of the footage, where cells start to disappear. The depth value will determine the number of seconds you need to trim
 - Export your composition to one of the [compatible formats](https://docs.lookingglassfactory.com/keyconcepts/quilts#format)
-- Plug your Looking Glass device and load your work with HoloPlay Studio
+- Plug your Looking Glass device and load your work with Looking Glass Studio
 
 ## Notes
 
